@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>BitLuma.com</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Animation Libraries -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magic.min.css">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900%7COpen+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <!-- Fonts Icons -->
+    <link rel="stylesheet" href="css/custom-icons.css">
+    <link rel="stylesheet" href="css/et-line-icons.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo-lightbox/lightbox-theme.css">
+    <!-- Animated Headlines -->
+    <link rel="stylesheet" href="css/animated-hedlines.css">
+    <!-- Youtube Background Player -->
+    <link rel="stylesheet" href="css/YTPlayer.css">
+    <!-- Main Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Theme -->
+    <link href="css/theme/light-green.css" rel="stylesheet" data-color="" id="theme">
+    <!-- Style Changer -->
+    <link href="css/theme/style.changer.css" rel="stylesheet">
+    <!-- Animsition -->
+    <link href="css/animsition.min.css" rel="stylesheet">
+    <!-- Favicon (retina) 
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="logo_icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="logo_icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="logo_icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="logo_icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="logo_icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="logo_icon.png" />
+    <link rel="icon" type="image/png" href="./logo_icon.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./logo_icon.png" sizes="16x16" />
+    -->
+    
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <link rel="shortcut icon" href="logo_icon.png" sizes="32x32" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Page Wrapper -->
+    <div id="page" class="animsition equal" data-loader-type="loader2" data-page-loader-text="BitLuma.com" data-animsition-in="zoom-outy" data-animsition-out="fade-out-up-sm" style="transform-origin: 50% 50vh;">
+        <div id="top"></div>
+        <!-- Home Section -->
+        <section id="home-section" class="home-section full-screen">
+            <div class="parallax-hero full-screen overlay index20" data-top="transform: translate3d(0px, 0px, 0px)" data-top-bottom="transform: translate3d(0px, -200px, 0px)" data-anchor-target="#home-section">
+            </div>
+            <div class="cloud__hero"></div>
+            <div class="hs-content">
+                <div class="hs-content-inner">
+                    <div class=" init-animation-2 delay0-4s">
+                        <h1 class="cd-headline letters rotate-2 hs-text-2 font-second">
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">Welcome</b>
+                                    <b>to</b>
+                                    <b>BitLuma</b>
+                                </span>
+                            </h1>
+                    </div>
+                    <div class="init-animation-2 delay0-6s">
+                        <h2 class="hs-text-6">3rd generation cryptocurrency...</h2>
+                    </div>
+                </div>
+                <span class="scroll-down-arrow in-page-scroll" data-start="display: inline-block" data-100-start="display: none">
+                    <a href="#about-section" class="ci-icon-uniE930 init-animation-2 delay1-8s"></a>
+                </span>
+            </div>
+        </section>
+        <!--/ End Home Section -->
+        <!-- Navbar -->
+        <div class="position-relative">
+            <!-- sticky: 1) remove"transp-nav" class, add class="sticky-navbar" to #nav-wrapper | 2) remove navbar-fixed-top class from #nav [and navbar-transparent class too] -->
+            <!-- sticky: 1) remove"transp-nav" class, add class="sticky-navbar" to #nav-wrapper | 2) remove navbar-fixed-top class from #nav [and navbar-transparent class too] -->
+            <div id="nav-wrapper" class="transp-nav">
+                <nav id="nav" class="navbar navbar-fixed-top navbar-transparent navbar-dark ripple-group-parent init-animation-1" 
+                    <!-- progressbar -->
+                    <div id="scroll-progressbar" class="scroll-progressbar">
+                        <div>
+                            <span class="scroll-shadow"></span>
+                        </div>
+                    </div>
+                    <div class="container in-page-scroll">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" id="animated-navicon" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand ripple-group" href="#top">
+                                <div class="navbar-logo pull-left">
+                                    <img src="img/NAVBAR.png" alt="logo" id="logo-svg-navbar" class="logo-svg-path-navbar" width="50px">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="mobile-navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right cl-effect-5">
+                                <li>
+                                    <a class="ripple-group" href="#top">
+                                        <span data-hover="home">home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#about-section">
+                                        <span data-hover="about us">about us</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#services-section">
+                                        <span data-hover="services">services</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#portfolio-section">
+                                        <span data-hover="projects">projects</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#team-section">
+                                        <span data-hover="team">team</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#client-testimonials">
+                                        <span data-hover="news">news</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="ripple-group" href="#contact-section">
+                                        <span data-hover="contact us">contact us</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
+            </div>
+        </div>
+        <!--/ End Navbar -->
+        <div id="page-2">
+            <!-- About Section -->
+            <section id="about-section" class="about-section section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            WELCOME TO THE FUTURE
+                        </div>
+                        <div>
+                            <h2 class="section-title-heading">about <span>us</span></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 wow fadeInUp margin-bottom-xs-40">
+                            <blockquote class=" about-quote wow fadeInUp" data-wow-delay="0s">
+                                <p>"BitLuma is a third-generation cryptocurrency that runs on the basis of hashgraph technology. Cryptocurrency provides fast, secure and stable transfers from anywhere in the world in 24/7 format with minimal commissions, without third party intervention."</p>
+                                <footer class="">BitLuma will not lose its value
+                                </footer>
+                            </blockquote>
+                            <p class="section-text wow fadeInUp" data-wow-delay=".3s">Unlike other cryptocurrencies,<br>
+                             Bitluma will not lose its value, as the Bitluma Fund is ready to buy back your Bitlumas  with the same cost you’ve bought it.
+</p>
+                        </div>
+                        <!--/.col -->
+                        <div id="skillbars" class="skillbars col-sm-6">
+                            <div class="skillbar-container wow fadeInUp animated" data-wow-delay="0s">
+                                <p class="skillbar-title">Fast
+                                    <span>100%</span>
+                                </p>
+                                <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
+                                <div class="skillbar">
+                                    <div class="skillbar-bar" data-percent="100%"></div>
+                                </div>
+                            </div>
+                            <!--/ End Skill Bar -->
+                            <div class="skillbar-container wow fadeInUp animated" data-wow-delay=".3s">
+                                <p class="skillbar-title">Security
+                                    <span>100%</span>
+                                </p>
+                                <div class="skillbar">
+                                    <div class="skillbar-bar delay0-4s" data-percent="100%"></div>
+                                </div>
+                            </div>
+                            <!--/ End Skill Bar -->
+                            <div class="skillbar-container wow fadeInUp animated" data-wow-delay=".6s">
+                                <p class="skillbar-title">Availability
+                                    <span>100%</span>
+                                </p>
+                                <div class="skillbar">
+                                    <div class="skillbar-bar delay0-8s" data-percent="100%"></div>
+                                </div>
+                            </div>
+                            <!--/ End Skill Bar -->
+                        </div>
+                        <!--/.col -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!--/.container -->
+            </section>
+            <!--/ End About Section -->
+            <hr />
+            <!-- Services Section -->
+            <section id="services-section" class="services-section section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            FIRST YOU SHOULD KNOW
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading"><span>Service</span></h1>
+                        </div>
+                    </div>
+                    <div class="services-section-items padding-top-sm-10 row">
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpLeftScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-focus"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">decentralized applications</h4>
+                            <div class="services-section-item-text">
+                                <p>Bitluma  is  a  platform   where   developers   and   investors   come  together  for  new  ideas, create decentralized applications in web3. </p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpLeftScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-hourglass"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Smart Contract</h4>
+                            <div class="services-section-item-text">
+                                <p>Deploy  smart  contracts  in  popular  languages including ( Solidity ) and ( Vyper ) to  create  decentralized  applications  and  protocols.   </p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                          <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpLeftScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-flag"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Financial Growth</h4>
+                            <div class="services-section-item-text">
+                                <p>  While  you  are  enjoying  your  entertainment ,  your Bitluma  works for you ( 24/7 ) , increasing your income. -You will receive income and donate to charity </p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                            <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpRightScale">
+                            <div class="services-section-item-icon filmmaking__div">
+                                <i class="icon-laptop"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Security</h4>
+                            <div class="services-section-item-text">
+                                <p>Deploy on a network with proven, best-in-class asynchronous Byzantine fault tolerant (ABFT) security that's resistant to DDoS and Sybil attacks.</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 margin-bottom-xs-40 wow fadeInUpScale">
+                            <div class="services-section-item-icon">
+                                <i class="icon-camera"></i>
+                            </div>
+                            <h4 class="services-item-title font-second">Digital Wallet</h4>
+                            <div class="services-section-item-text">
+                                <p>The Bitluma Wallet allows to control your own financial resources, receive and make transfers from any place in the world within a few seconds.</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                        <div class="services-section-item col-sm-4 wow fadeInUpRightScale sound__div__icon">
+                            <div class="services-section-item-icon">
+                                <i class="icon-grid"></i>
+                            </div>
+                            <h4 class="services-item-title font-second special__icon">Funds</h4>
+                            <div class="services-section-item-text">
+                                <p>Unlike the others, our funds are transparent and serve their purpose effectively. You can track your invested financial resources anytime, anywhere.</p>
+                            </div>
+                        </div>
+                        <!--/ End Services Section Item -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!--/.container -->
+            </section>
+            <!--/ End Services Section -->
+            <hr />
+            <!--Start Works Section -->
+            <section id="portfolio-section" class="portfolio-section portfolio-section-light section text-center no-padding-bottom">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            join the revolutionary technology
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading"><span>projects</span></h1>
+                        </div>
+                    </div>
+                    <!-- Start Works Buttons -->
+                    <!-- <div id="portfolio-filters" class="portfolio-filters margin-top-20 ripple-group-parent wow fadeIn" data-wow-offset="100" data-wow-delay=".1s">
+                        <a class="btn btn-animated btn-split ripple-group" data-text="all works" data-filter="*">
+                            <span class="btn-icon icon-tools"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="web design" data-filter=".web-design">
+                            <span class="btn-icon icon-browser"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="video" data-filter=".video">
+                            <span class="btn-icon icon-video"></span>
+                        </a>
+                        <span class="btn-seperator">|</span>
+                        <a class="btn btn-animated btn-split ripple-group" data-text="photo" data-filter=".photo">
+                            <span class="btn-icon icon-camera"></span>
+                        </a>
+                    </div> -->
+                    <!--/ End Works Buttons -->
+                    <!-- Works Items -->
+                    <div class="projects">
+                        <div class="projects_container">
+                            <div class="video_item"></div>
+                            
+                            <iframe class="video_el" src="https://www.youtube.com/embed/NuuUOHl3L_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                        </div>
+                        
+                    </div>
+                    <!--/ End Works Items -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!--/ End Works Section -->
+            <!-- Project Order Section -->
+            <div class="project-order-section-light in-page-scroll small-section text-center">
+                <a href="#contact-section" class="btn btn-animated btn-split btn-dark ripple-alone" data-text="pre-sale BitLuma"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subsribe&nbsp;..&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+            </div>
+            <!--/ End Project Order Section -->
+            <hr />
+            <!-- Team Section -->
+            <section id="team-section" class="team-section section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="section-title">
+                                <div class=" section-title-more">
+                                    get to know
+                                </div>
+                                <div>
+                                    <h2 class="section-title-heading"><span>our </span>team</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-sm-6 margin-bottom-xs-40">
+                            <p class="section-text">The BitLuma team consists of highly qualified, experienced professionals who specialize in their work, which guarantees that the project we have started will achieve its goal.</p>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+                    <!-- /.row -->
+                    <!-- Team Items -->
+                    <div class="team-items">
+                        <!-- Team Carousel -->
+                        <div id="team-carousel" class="team-carousel owl-carousel carousel dots-under">
+                            <!-- Team Item -->
+                            <div class="team-item">
+                                <!-- Team Item Image -->
+                                <div class="team-item-img">
+                                    <img src="img/team/mayo.jpg" alt="team member" />
+                                </div>
+                                <!--/ End Team Item Imagee -->
+                                <!-- Team Item Name -->
+                                <div class="team-item-name font-second">
+                                   <h4 class="">Mayis Khoudoyan</h4>
+                                    <span>Owner & Co-Founder</span>
+                                </div>
+                                <!--/ End Team Item Name -->
+                                <!-- Team Item Info -->
+                                <div class="team-item-info">
+                                    <div class="team-item-text">
+                                        <h3 class="font-second">get in <span>touch ..</span></h3>
+                                        <p>Business is a combination of war and sport.</p>
+                                    </div>
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">Management
+                                            <span>100%</span>
+                                        </p>
+                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">Online Sales
+                                            <span>100%</span>
+                                        </p>
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar delay0-2s" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <ul class="team-item-social clearlist">
+                                        <li>
+                                            <a href="https://www.facebook.com/kayfaration" class="fa fa-facebook-square" target="_blank"></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/kayfaration" class="fa fa-instagram" target="_blank"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--/ End Team Item Info -->
+                            </div>
+                            <!--/ End Team Item -->
+                            <!-- Team Item -->
+                            <div class="team-item">
+                                <!-- Team Item Image -->
+                                <div class="team-item-img">
+                                    <img src="img/team/narek.jpg" alt="team member" />
+                                </div>
+                                <!--/ End Team Item Image -->
+                                <!-- Team Item Name -->
+                                <div class="team-item-name font-second">
+                                    <h4 class="">Narek Hakobyan</h4>
+                                    <span>Co-founder & Developer</span>
+                                </div>
+                                <!--/ End Team Item Name -->
+                                <!-- Team Item Info -->
+                                <div class="team-item-info">
+                                    <div class="team-item-text">
+                                        <h3 class="font-second"><span>love</span> the nature</h3>
+                                        <p>A friendship founded on business is better than a business founded on friendship.</p>
+                                    </div>
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">javascript & React
+                                            <span>100%</span>
+                                        </p>
+                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">Solidity
+                                            <span>100%</span>
+                                        </p>
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar delay0-2s" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <ul class="team-item-social clearlist">
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/narek-hakobyan-165772222/" class="fa fa-linkedin-square" target="_blank"></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/hakobyannarekjs/" class=" fa fa-instagram" target="_blank"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--/ End Item Info -->
+                            </div>
+                            <!--/ End Team Item -->
+                            <!-- Team Item -->
+                            <div class="team-item">
+                                <!-- Team Item Image -->
+                                <div class="team-item-img">
+                                    <img src="img/team/yura.jpg" alt="team member" />
+                                </div>
+                                <!--/ End Team Item Image -->
+                                <!-- Team Item Name -->
+                               <div class="team-item-name font-second">
+                                    <h4 class="">Yuri Abrahamyan</h4>
+                                    <span>Co-founder & PR Manager</span>
+                                </div>
+                                <!--/ End Team Item Name -->
+                                <!-- Team Item Info -->
+                                <div class="team-item-info">
+                                    <div class="team-item-text">
+                                        <h3 class="font-second">Let's <span>roll.</span></h3>
+                                        <p>Rivalry is the life of trade, and the death of the trader.</p>
+                                    </div>
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">Project Manager
+                                            <span>100%</span>
+                                        </p>
+                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                   <!--  / End Skill Bar  -->
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">Marketing
+                                            <span>100%</span>
+                                        </p>
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar delay0-2s" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <ul class="team-item-social clearlist">
+                                        <li>
+                                            <a href="https://www.facebook.com/yuri.abrahamyan.1" class="fa fa-facebook-square" target="_blank"></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/yu.abrahamyan/" class="fa fa-instagram" target="_blank"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--/ End Item Info -->
+                            </div>
+                            <!--/ End Team Item -->
+                            <!-- Team Item -->
+                            <div class="team-item">
+                                <!-- Team Item Image -->
+                                <div class="team-item-img">
+                                    <img src="img/team/rob.jpg" alt="team member" />
+                                </div>
+                                <!--/ End Team Item Image -->
+                                <!-- Team Item Name -->
+                                <div class="team-item-name font-second">
+                                    <h4 class="">Robert Babayan</h4>
+                                    <span>Co-founder & Media Production</span>
+                                </div>
+                                <!--/ End Team Item Name -->
+                                <!-- Team Item Info -->
+                                <div class="team-item-info">
+                                    <div class="team-item-text">
+                                        <h3 class="font-second"><span>believe</span> in yourself</h3>
+                                        <p>When two men in business always agree, one of them is unnecessary.</p>
+                                    </div>
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second"> Advertising
+                                            <span>100%</span>
+                                        </p>
+                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">Media Production
+                                            <span>100%</span>
+                                        </p>
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar delay0-2s" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <ul class="team-item-social clearlist">
+                                        <li>
+                                            <a href="https://www.facebook.com/mr.babaian" class="fa fa-facebook-square" target="_blank"></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/mr.babaian/" class="fa fa-instagram" target="_blank"></a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <!--/ End Item Info -->
+                            </div>
+                            <!--/ End Team Item -->
+                            <!-- Team Item -->
+                            <div class="team-item">
+                                <!-- Team Item Image -->
+                                <div class="team-item-img">
+                                    <img src="img/team/mxo.jpg" alt="team member" />
+                                </div>
+                                <!--/ End Team Item Image -->
+                                <!-- Team Item Name -->
+                                <div class="team-item-name font-second">
+                                    <h4 class="">Mkhitar Atoyan</h4>
+                                    <span>CO-Founder & Developer</span>
+                                </div>
+                                <!--/ End Team Item Name -->
+                                <!-- Team Item Info -->
+                                <div class="team-item-info">
+                                    <div class="team-item-text">
+                                        <h3 class="font-second"><span>Fly</span> with me ...</h3>
+                                        <p>A dream is just a dream. A goal is a dream with a plan and a deadline.</p>
+                                    </div>
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">Android & IOS 
+                                            <span>100%</span>
+                                        </p>
+                                        <!-- Skill Bar Precent_ to change the percent change the data-percent="..." -->
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <div class="skillbar-container">
+                                        <p class="skillbar-title font-second">Solidity
+                                            <span>100%</span>
+                                        </p>
+                                        <div class="skillbar">
+                                            <div class="skillbar-bar delay0-2s" data-percent="100%"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ End Skill Bar -->
+                                    <ul class="team-item-social clearlist">
+                                        <li>
+                                           <a href="https://www.facebook.com/mkhitar.atoyan/" class="fa fa-facebook-square" target="_blank"></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/mxitaratoyan/" class=" fa fa-instagram" target="_blank"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--/ End Item Info -->
+                            </div>
+                            <!--/ End Team Item -->
+                        </div>
+                        <!--/ End Team Carousel -->
+                    </div>
+                    <!--/ End Team Items -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!--/ End Team Section -->
+            <hr />
+            <!--/ End Team Section -->
+            <hr />
+            <!-- Clients Testimonials Section -->
+            <section id="client-testimonials" class="client-testimonials section  overlay">
+                <!-- Parallax Image Background -->
+                <div class="parallax-section-bg client-testimonials-bg index11 overlay full-screen" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -25%, 0px)" data-bottom-top="transform: translate3d(0px, -75%, 0px)" data-anchor-target="#client-testimonials"></div>
+                <!--/ End Parallax Image Background -->
+                <div class="container">
+                    <div class="section-title padding-bottom-40">
+                        <div class=" section-title-more">
+                            we work with leaders
+                        </div>
+                        <div>
+                            <h1 class="section-title-heading">last <span>news</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <!--/ .container -->
+                <div id="testimonials" class="testimonials owl-carousel carousel">
+                    <div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"What if anyone on Earth, at any moment, could just wave their hand and carve out a world of their own in cyberspace?"</p>
+                                <footer class="">DR. LEEMON BAIRD
+                                    <cite title="Source Title">Co-Founder & Chief Scientist</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                    <div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"The main goal of the BitLuma project is to create and develop decentralized systems, decentralized finance, fair and efficient algorithms, artificial intelligence. Unlike other cryptocurrencies and currencies insured against loss, the BitLuma Fund is ready to buy your Beatles at face value. BitLuma is more valuable than Fiat money."</p>
+                                <footer class="">Mayis Khudoyan
+                                    <cite title="Source Title">Founding Director</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                    <div class="testimo-item">
+                        <div class="container">
+                            <blockquote>
+                                <p>"This is a new ICO application based on the Hedera Hashgraph platform where you can purchase BitLuma tokens. The total number of BitLuma tokens is 10 million. When you buy BitLuma tokens, you invest in BitLuma projects, after which you get a passive return."</p>
+                                <footer class="">Narek Hakobyan
+                                    <cite title="Source Title">Frontend Development</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <!--/ .container -->
+                    </div>
+                    <!--/ End Testimonials Item -->
+                </div>
+                <!--/ End Testimonials Content -->
+            </section>
+            <!--/ End Clients Testimonials Section -->
+            <!-- Clients Logos -->
+            <div class="client-logos small-section">
+                <div class="container">
+                    <div id="client-logos" class="owl-carousel">
+                        <div class="clients__logos">
+                            <img src="img/Clients/1.png" alt="client logo" />
+                        </div>
+                        <div class="clients__logos">
+                            <img src="img/Clients/2.png" alt="client logo" />
+                        </div>
+                        <div class="clients__logos">
+                            <img src="img/Clients/3.png" alt="client logo" />
+                        </div>
+                        <div class="clients__logos">
+                            <img src="img/Clients/4.png" alt="client logo" />
+                        </div>
+                        <div class="clients__logos">
+                            <img src="img/Clients/5.png" alt="client logo" />
+                        </div>
+                        <div class="clients__logos">
+                            <img src="img/Clients/6.png" alt="client logo" />
+                        </div>
+                        <div class="clients__logos">
+                            <img src="img/Clients/7.png" alt="client logo" />
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--/ .container -->
+            </div>
+            <!--/ End Clients Logos -->
+            <hr />
+            <!-- Contact Section -->
+            <section id="contact-section" class="section contact-section">
+                <div class="container">
+                    <div class="section-title">
+                        <div class=" section-title-more">
+                            If you have any questions, write to us and we will be happy to answer them.
+                        </div>
+                        <div>
+                            <h2 class="section-title-heading"><span>contact</span> us</h2>
+                        </div>
+                    </div>
+                    <div class="row padding-bottom-sm-90">
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-phone"></i>
+                                <p>Phone:  
+                                    <br />+ (374) 98-720-008 , + (374) 95-533-313</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-map-pin"></i>
+                                <p>1 Davit Bek Street, Yerevan
+                                    <br />EVN 0018, Armenia</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="contact-item margin-bottom-xs-40"><i class="icon-envelope"></i>
+                                <p>support@bitluma.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-10">
+                            <form id="ajax-contact" class="" method="post" action="mailer.php">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="input col-xs-12 col-sm-12 padding-bottom-xs-50 padding-bottom-40">
+                                            <label class="input-label" for="name">
+                                                <span class="input-label-content font-second" data-content="name">name *</span>
+                                            </label>
+                                            <input class="input-field" type="text" name="name" id="name" required />
+                                        </div>
+                                        <div class="input col-xs-12 col-sm-6 padding-bottom-xs-50 padding-bottom-50">
+                                            <label class="input-label" for="email">
+                                                <span class="input-label-content font-second" data-content="email">email *</span>
+                                            </label>
+                                            <input class="input-field" type="email" name="email" id="email" required />
+                                        </div>
+                                        <div class="input col-xs-12 col-sm-6 padding-bottom-xs-60 padding-bottom-50">
+                                            <label class="input-label" for="company">
+                                                <span class="input-label-content font-second" data-content="company">company</span>
+                                            </label>
+                                            <input class="input-field" type="text" name="company" id="company" />
+                                        </div>
+                                        <div class="message col-xs-12 col-sm-12 padding-bottom-xs-40 padding-bottom-30">
+                                            <label class="textarea-label font-second" for="message">message *</label>
+                                            <textarea class="input-field textarea" name="message" id="message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div id="form-messages" class="form-message"></div>
+                                    <div class="col-xs-12 margin-top-30 text-center">
+                                        <button id="btn-submit" type="submit" class="btn btn-animated btn-contact ripple-alone" data-text="send it"><span class="btn-icon"><span class="loader-parent"><span class="loader3"></span></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <!--/ End form -->
+                        </div>
+                        <!--/ .col -->
+                    </div>
+                    <!--/ .row -->
+                </div>
+                <!--/ .container -->
+            </section>
+            <!--/ End Contact Section -->
+            <!--/ Map Section -->
+            <!--<div id="map-section" class="map-section">
+                 map opener 
+                <div id="map-opener" class="map-mask">
+                    <div class="map-opener">
+                        <div class="font-second">locate us on the map<i class="ci-icon-uniE930"></i></div>
+                        <div class="font-second">close the map<i class="ci-icon-uniE92F"></i></div>
+                    </div>
+                </div>
+                / End map opener 
+                <div id="google-map">
+                    <div id="map-canvas" data-address="31 Tigran Mets Ave, Yerevan 0018, Armenia"></div>
+                    <div id="map-zoom-in"></div>
+                    <div id="map-zoom-out"></div>
+                </div>
+            </div> -->
+            <!--/ End Map Section -->
+            <!-- Footer Section -->
+            <footer class="footer-section section no-padding-bottom">
+                <!-- footer logo -->
+                <div class="footer-logo">
+                   <img src="img/footerLogo.png" alt="logo" id="logo-svg">
+                </div>
+                <!--/ End footer logo -->
+                <!-- Social icons -->
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/BitLuma-111344874690461/" class="fa fa-facebook-square wow fadeIn" data-wow-offset="150" data-wow-delay="0s" target="_blank"></a>
+                    <a href="https://www.instagram.com/bitluma/" class="fa fa-instagram wow fadeIn" data-wow-offset="150" data-wow-delay=".15s" target="_blank"></a>
+                    <a href="https://www.youtube.com/channel/UCl3Fr7zEkle0y_xSZbEAISg" class="fa fa-youtube-play wow fadeIn" data-wow-offset="150" data-wow-delay=".30s" target="_blank"></a>
+                </div>
+                <!--/ End Social icons -->
+                <!-- go top pop-up -->
+                <div id="go-top" class="go-top go-top-out in-page-scroll">
+                    <div class="circle1"></div>
+                    <a href="#top" class="square"><span></span></a>
+                    <div class="rectangle"></div>
+                    <div class="circle2"></div>
+                </div>
+                <!--/ End go top pop-up -->
+                <div class="footer-bottom">
+                    <!-- Copyright -->
+                    <a class="footer-bottom-text font-second" href="http://themeforest.net/item/volar-one-page-parallax-template/11698815" target="_blank">Bitluma.com © 2022. All Rights Reserved.</a>
+                    <!-- End Copyright -->
+                </div>
+            </footer>
+            <!--/ End Footer Section -->
+        </div>
+        <!--/ #page-2 -->
+        <!-- Start Sliding Panel __ Delete after configuration -->
+        <!-- <section class="sliding-panel hi" id="style-changer">
+            <div class="sliding-panel-title font-second text-center">
+                <h3>Style Switcher</h3>
+            </div>
+            <div class="selector text-center">
+                <p class="style-changer-text font-second text-center">choose overall mood
+                </p>
+                <button class="light-m">light</button>
+                <button class="dark-m">dark</button>
+                <br />
+                <button class="equal-m">equal</button>
+                <button class="diff-m">different</button>
+            </div>
+            <div class="selector text-center">
+                <p class="style-changer-text font-second text-center">choose navbar style</p>
+                <button class="l-nav">Light navbar</button>
+                <button class="d-nav">dark &nbsp;&nbsp;navbar</button>
+            </div>
+            <div>
+                <p class="style-changer-text font-second text-center">choose a color</p>
+                <ul class="list-unstyled colors-container">
+                    <li class="color-changer">
+                        <a data-color="scuba-blue" title="scuba-blue: #00B2CA" style="background: #00B2CA;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="light-green" title="light-green: #00CCAD" style="background: #00CCAD;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="black-white" title="black-white: #171724" style="background: #171724;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="red" title="red: #ff0030" style="background: #ff0030;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="gold" title="gold: #DAC14C" style="background: #DAC14C;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="orange" title="orange: #FF4C05" style="background: #FF4C05;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="light-purple" title="light-purple: #E47AC2" style="background: #E47AC2;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="purple" title="purple: #A182D2" style="background: #A182D2;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="olive" title="olive: #97BE22" style="background: #97BE22;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="dark-blue" title="dark-blue: #3446FF" style="background: #3446FF;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="brown" title="brown: #E48400" style="background: #E48400;"></a>
+                    </li>
+                    <li class="color-changer">
+                        <a data-color="pink" title="pink: #FF4C83" style="background: #FF4C83;"></a>
+                    </li>
+                </ul>
+                <p class="style-changer-detail padding-20">You can create your own theme using LESS.
+                    <br />- see the docs.</p>
+            </div>
+            <div class="selector text-center">
+                <p class="style-changer-text font-second text-center">choose Footer mood</p>
+                <button class="dark-f">Dark Footer</button>
+                <button class="light-f">Light Footer</button>
+            </div>
+            <a class="sliding-panel-arrow text-center"><i class="icon icon-gears"></i></a>
+        </section> -->
+        <!--/ End Sliding Panel -->
+    </div>
+    <!--/ #page -->
+    <!-- JS Scripts -->
+    <script src="js/modernizr.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js" integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/jquery.animsition.min.js"></script>
+    <script type="text/javascript">
+    var isMobile;
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        isMobile = true;
+        $("html").addClass("mobile");
+    } else {
+        isMobile = false;
+        $("html").addClass("no-mobile");
+    }
+    </script>
+    <!-- <script src="js/smoothscroll.js"></script> -->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/animateSlider.js"></script>
+    <script src="js/animated-headlines.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/jquery.particleground.min.js"></script>
+    <script src="js/fss.min.js"></script>
+    <script src="js/fssinit.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/contactForm.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWb3BvSLJ-zqmlL3VH4qGedKvjGb1jfLk"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/style.changer.js"></script>
+    <!--/ End JS Scripts -->
+</body>
+
+</html>
